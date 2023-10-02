@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style navbar*/
+.search{
+    /* display:flex; */
+    width:15px;
+    height:15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+  
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.log{
+width:150px;
+height:60px;
+
+
+}
+nav div img{
+    width:100%;
+    height:100%;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 15px;
+}
+nav button{
+    width:60px;
+    height:30px;
+    background-color:#0C831F;
+    border: none;
+    border-radius: 5px;
+}
+.button1{
+    width:60px;
+    height:30px;
+    text-align: center;
+    margin-left:5px;
+    align-items: center;
+
+}
+/* section 1*/
+.sect1{
+    /* border: 2px solid red; */
+    height:250px;
+    width:1250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+   
+    
+}
+.sect1 img{
+    width: 100%;
+}
+
+.hero{
+   
+    width:60%;
+    text-align:left;
+    padding:2%;
+    
+    
+
+}
+
+/* section 4 style*/
+.sect4{
+    width:1250px;
+    display:flex;
+    overflow-x: auto scroll;
+    justify-content: space-between;
+}
+.sect4box{
+   
+    margin:1%;
+    width:100%;
+}
+.sect4box img{
+    width:100%;
+}
+/*section 5 style*/
+.sec5{
+    display:flex;
+    flex-wrap: wrap;
+    width:1250px;
+   
+}
+.sec5 div{
+    width:10%;
+}
+.sec5 img{
+    width:100%;
+}
+/*section 6*/
+.sect6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+   
+    
+}
+.sect6main{
+width:1250px;
+}
+.sect6 div{
+    width:350px;
+    height:150px;
+    border: 2px solid rgb(211, 209, 209);
+    border-radius: 10px;
+    margin:1%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.sect6 img{
+    width:100%;
+    height:100%;
+}
